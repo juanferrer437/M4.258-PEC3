@@ -2,8 +2,6 @@
   "plugins": {
     "posthtml-include": {
       "root": "./src"
-     },
-    "tailwindcss": {},
-    "autoprefixer": {}
+     }
   }
 }
