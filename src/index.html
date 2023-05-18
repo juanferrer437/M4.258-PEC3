@@ -1,35 +1,76 @@
 <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss">
+    <!-- do not remove this line! -->
+    <title>PEC2 - Herramientas HTML y CSS II </title>
+</head>
+<body>
+    <include src="./views/header.html"></include>
+<div class="contenedor2">
+          <h1 class="titulo">Chess Club Members</h1>
+          <div class="flexcontenedor">
 
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-    <title>UOC Boilerplate</title>
-  </head>
-  <body>
-    <div class="uoc-container">
-      <figure class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
-        <img class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="./assets/images/logo.png" width="384" height="512">
-        <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
-          <blockquote>
-            <p class="text-lg font-medium">
-              “Tailwind CSS is the only framework that I've seen scale
-              on large teams. It’s easy to customize, adapts to any design,
-              and the build size is tiny.”
-            </p>
-          </blockquote>
-          <figcaption class="font-medium">
-            <div class="text-sky-500 dark:text-sky-400">
-              Sarah Dayan
+                <div class="flexcontenedor__bloque">
+                    <img src="./assets/images/user.png" class="flexcontenedor__bloque--user">
+                    <h5>Member One</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <p>ELO:</p>
+                </div>
+                
+
+                <div class="flexcontenedor__bloque">
+                    <img src="./assets/images/user.png" class="flexcontenedor__bloque--user">
+                    <h5>Member Two</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <p>ELO:</p>
+                </div>
+
+                <div class="flexcontenedor__bloque">
+                    <img src="./assets/images/user.png" class="flexcontenedor__bloque--user">
+                    <h5>Member Three</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <p>ELO:</p>
+                </div>
+
+                <div class="flexcontenedor__bloque">
+                    <img src="./assets/images/user.png" class="flexcontenedor__bloque--user">
+                    <h5>Member Four</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <p>ELO:</p>
+                </div>
+
+                <div class="flexcontenedor__bloque">
+                    <img src="./assets/images/user.png" class="flexcontenedor__bloque--user">
+                    <h5>Member Five</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <p>ELO:</p>
+                </div>
+
+                <div class="flexcontenedor__bloque">
+                    <img src="./assets/images/user.png" class="flexcontenedor__bloque--user">
+                    <h5>Member Six</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <p>ELO:</p>
+                </div>
+
+
+
+            
+            
+
             </div>
-            <div class="text-slate-700 dark:text-slate-500">
-              Staff Engineer, Algolia
-            </div>
-          </figcaption>
+            <p class="titulo">If necesary, more members can be added.</p>
         </div>
-      </figure>
-    <include src="./views/footer.html"></include>
-    <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
-  </body>
+ 
+          <include src="./views/footer.html"></include>
+        </div>
+     </body>
+
+    <script type="module" src="./assets/scripts/main.js"></script>
+    <!-- do not remove this line! -->
+</body>
 </html>
