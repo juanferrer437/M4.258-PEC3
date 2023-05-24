@@ -1,20 +1,32 @@
-@layer components {
-    .contenedor3 {
-       @apply grid grid-cols-10 h-[6vh] bg-green-50 content-center;
+  .container {
+    @apply w-4/5 mx-auto;
+  }
+
+  .contenedor3 {
+    @apply grid grid-cols-10 h-[8vh] content-center;
+
+    &__menu {
+      @apply col-span-7 justify-self-end font-bold;
     }
 
-    .contenedor3__logo {
-        @apply max-w-[200px];
+    &__logo {
+      @apply max-w-[200px];
     }
-    .navega {
-        @apply flex flex-row items-end pt-1 list-none;       
-    }
-    .navega2__header {
-        @apply navega justify-between ;
+  }
+
+  .navega {
+    @apply flex flex-row items-end pt-1 list-none;
+
+    &__header {
+      @apply navega justify-between;
+
+      &--item {
+        @apply pl-9 pt-1;
+      }
     }
 
-    .navega2__footer {
-        @apply navega justify-end;
+    &__footer {
+      @apply navega justify-end;
     }
+  }
 
-}
