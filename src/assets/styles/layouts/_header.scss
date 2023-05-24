@@ -1,8 +1,20 @@
-
 @layer components {
     .contenedor3 {
-        
+       @apply grid grid-cols-10 h-[6vh] bg-green-50 content-center;
+    }
 
+    .contenedor3__logo {
+        @apply max-w-[200px];
+    }
+    .navega {
+        @apply flex flex-row items-end pt-1 list-none;       
+    }
+    .navega2__header {
+        @apply navega justify-between ;
+    }
+
+    .navega2__footer {
+        @apply navega justify-end;
     }
 
 }
