@@ -6,6 +6,8 @@
 // import 'some-node-module';
 // import SomeModule from 'some-node-module';
 
+import "@fortawesome/fontawesome-free/js/all";
+
 /**
  * Write any other JavaScript below
  */

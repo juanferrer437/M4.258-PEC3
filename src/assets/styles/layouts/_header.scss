@@ -15,18 +15,12 @@
   }
 
   .navega {
-    @apply flex flex-row items-end pt-1 list-none;
+    @apply flex flex-row items-end pt-1 list-none justify-between;
 
-    &__header {
-      @apply navega justify-between;
-
-      &--item {
+      &__item {
         @apply pl-9 pt-1;
       }
-    }
-
-    &__footer {
-      @apply navega justify-end;
-    }
+    
+  
   }
 
