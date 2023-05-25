@@ -3,7 +3,7 @@
 }
 
 .footer2 {
-  @apply grid grid-cols-6 h-[6vh] content-center pt-2 mt-24 mb-2 pt-10 border-t-2;
+  @apply grid grid-cols-6 h-[6vh] content-center mt-24 mb-2 py-10 border-t-2;
 
   &__menu {
     @apply col-span-4 font-bold justify-self-center;
