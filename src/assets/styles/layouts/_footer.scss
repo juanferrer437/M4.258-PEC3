@@ -1,5 +1,5 @@
 .footer1 {
-  @apply flex items-center justify-center h-10 mt-24;
+  @apply text-center md:flex items-center justify-center h-10 mt-24;
 }
 
 .footer2 {
@@ -10,30 +10,19 @@
   }
 
   &__logo2 {
-    @apply block max-w-[200px];
+    @apply hidden md:block max-w-[200px];
   }
 
   &__social {
     @apply flex items-center;
 
     &--icono {
-      @apply  p-1.5 h-6;
-            
+      @apply hidden md:inline h-6;
     }
   }
 }
 
-// @media screen and (max-width: $mqPeque) {
-//   .footer2 {
-    
-//     &__logo2 {
-//       display: none;
-//     }
-//     &__social--icono {
-//       display: none;
-//     }
-//   }
-//   .footer1 {
-//     text-align: center;
-//   }
-// }
+
+
+
+
