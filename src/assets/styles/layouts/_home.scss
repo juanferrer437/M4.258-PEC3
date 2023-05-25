@@ -1,5 +1,8 @@
-.titulo {
-   @apply mx-auto font-bold;
-}
+.contenedor {
+   @apply w-4/5 mx-auto;
+ }
 
 
+.flexcontenedor {
+   @apply flex flex-row flex-wrap gap-6 justify-center;
+ }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,72 +9,66 @@
     <!-- do not remove this line! -->
     <title>PEC3 - Herramientas HTML y CSS II </title>
 </head>
+
 <body>
     <include src="./views/header.html"></include>
 
-    
-     <h1 class="titulo">Chess Club Members</h1>
-          <div class="flexcontenedor">
+    <main class="contenedor">
+        <h1 class="text-4xl	py-11 text-center font-bold">Chess Club Members</h1>
 
-                <div class="flexcontenedor__bloque">
-                    <img src="./assets/images/user.png" class="flexcontenedor__bloque--user">
-                    <h5>Member One</h5>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                    <p>ELO:</p>
-                </div>
-                
+        <div class="flexcontenedor">
+            <include src="./views/player.html">
+                {
+                "number":"One"
+                }
+            </include>
 
-                <div class="flexcontenedor__bloque">
-                    <img src="./assets/images/user.png" class="flexcontenedor__bloque--user">
-                    <h5>Member Two</h5>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                    <p>ELO:</p>
-                </div>
+            <include src="./views/player.html">
+                {
+                "number":"Two"
+                }
+            </include>
 
-                <div class="flexcontenedor__bloque">
-                    <img src="./assets/images/user.png" class="flexcontenedor__bloque--user">
-                    <h5>Member Three</h5>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                    <p>ELO:</p>
-                </div>
+            <include src="./views/player.html">
+                {
+                "number":"Three"
+                }
+            </include>
 
-                <div class="flexcontenedor__bloque">
-                    <img src="./assets/images/user.png" class="flexcontenedor__bloque--user">
-                    <h5>Member Four</h5>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                    <p>ELO:</p>
-                </div>
+            <include src="./views/player.html">
+                {
+                "number":"Four"
+                }
+            </include>
 
-                <div class="flexcontenedor__bloque">
-                    <img src="./assets/images/user.png" class="flexcontenedor__bloque--user">
-                    <h5>Member Five</h5>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                    <p>ELO:</p>
-                </div>
+            <include src="./views/player.html">
+                {
+                "number":"Five"
+                }
+            </include>
 
-                <div class="flexcontenedor__bloque">
-                    <img src="./assets/images/user.png" class="flexcontenedor__bloque--user">
-                    <h5>Member Six</h5>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                    <p>ELO:</p>
-                </div>
+            <include src="./views/player.html">
+                {
+                "number":"Six"
+                }
+            </include>
+    </main>
 
 
 
-            
-            
 
-            </div>
-            <p class="titulo">If necesary, more members can be added.</p>
-        
- 
-          <include src="./views/footer.html"></include>
-        </div>
-        </div>
     </div>
-     </body>
+    <p class="pt-10 text-center">If necesary, more members can be added.</p>
 
-    <script type="module" src="./assets/scripts/main.js"></script>
-    <!-- do not remove this line! -->
+
+    <include src="./views/footer.html"></include>
+    </div>
+    </div>
+    </div>
 </body>
+
+<script type="module" src="./assets/scripts/main.js"></script>
+<!-- do not remove this line! -->
+</body>
+
 </html>
