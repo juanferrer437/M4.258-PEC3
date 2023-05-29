@@ -1,37 +1,23 @@
 .contenedor {
-   @apply w-4/5 mx-auto;
- }
-
+  @apply w-4/5 mx-auto;
+}
 
 .flexcontenedor {
-   @apply flex flex-row flex-wrap gap-6 justify-center;
- }
+  @apply flex flex-row flex-wrap gap-6 justify-center;
+}
 
-
- .contenedor55 {
-
+.contenedor55 {
   @apply grid grid-cols-layout grid-rows-layout mb-4;
+}
 
-  }
-
- .imagen {
+.imagen {
   @apply w-full h-full object-cover row-span-full col-span-full;
 }
 
 .navega2 {
   @apply row-start-1 col-span-full;
-  
 }
 
 .descripcion {
   @apply col-start-2 row-start-2 text-white lg:row-start-3 lg:col-start-2 lg:p-3;
-  }
-
-
-@media screen and (max-width: $mqMinWidth) {
-  .contenedor55 {
-    width: 100%;
-  }
-  
-
 }

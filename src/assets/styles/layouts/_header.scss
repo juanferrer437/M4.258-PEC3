@@ -1,23 +1,21 @@
+.contenedor3 {
+  @apply grid grid-cols-header h-[8vh] content-center;
 
-  .contenedor3 {
-    @apply grid grid-cols-header h-[8vh] content-center;
-
-    &__menu {
-      @apply justify-self-end font-bold;
-    }
-
-    &__logo {
-      @apply max-w-[200px];
-    }
+  &__menu {
+    @apply justify-self-end font-bold;
   }
 
-  .navega {
-    @apply flex flex-row items-end pt-1 list-none justify-between;
+  &__logo {
+    @apply max-w-[200px];
+  }
+}
 
-      &__item {
-        @apply pl-9 pt-1;
-      }
-    
-  
+.navega {
+  @apply flex flex-row items-end pt-1 list-none justify-between;
+
+  &__item {
+    @apply pl-9 pt-1;
   }
 
+
+}
