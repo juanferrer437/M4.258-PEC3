@@ -1,9 +1,9 @@
 
   .contenedor3 {
-    @apply grid grid-cols-10 h-[8vh] content-center;
+    @apply grid grid-cols-header h-[8vh] content-center;
 
     &__menu {
-      @apply col-span-7 justify-self-end font-bold;
+      @apply justify-self-end font-bold;
     }
 
     &__logo {

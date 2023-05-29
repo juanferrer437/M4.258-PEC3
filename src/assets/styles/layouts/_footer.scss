@@ -1,8 +1,8 @@
 .footer2 {
-  @apply grid grid-cols-6 h-[6vh] content-center mt-14 mb-2 py-10 border-t-2;
+  @apply grid grid-cols-footer h-[8vh] content-center mt-14 mb-2 pt-8 border-t-2;
 
   &__menu {
-    @apply col-span-4 font-bold justify-self-center;
+    @apply  font-bold justify-self-center;
   }
 
   &__logo2 {
@@ -13,7 +13,7 @@
     @apply flex items-center;
 
     &--icono {
-      @apply hidden md:inline h-6;
+      @apply hidden md:inline md:h-5 md:pl-3;
     }
   }
 }
