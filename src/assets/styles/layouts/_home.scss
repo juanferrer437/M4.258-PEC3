@@ -9,6 +9,8 @@
 
 
  .contenedor55 {
+
+  @apply grid grid-cols-5 h-[8vh] content-center;
   display: grid;
   grid-template-rows: 8vh 25vh 35vh;
   grid-template-columns: 1fr 3fr 1fr;
@@ -16,34 +18,24 @@
 }
 
  .imagen {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  grid-row: 1 / 4;
-  grid-column: 1 / -1;
+  @apply w-full h-full object-cover row-span-full col-span-full;
 }
 
 .navega2 {
-  grid-row: 1;
-  grid-column: 1/-1;
+  @apply row-start-1 col-span-full;
+  
 }
 
 .descripcion {
-  grid-row: 3;
-  grid-column: 2;
-  padding: 10px;
-  color: white;
+  @apply col-start-2 row-start-2 text-white md:row-start-3 md:col-start-2 md:p-3;
+  
 }
+
 
 @media screen and (max-width: $mqMinWidth) {
   .contenedor55 {
     width: 100%;
   }
   
-  .descripcion {
-    grid-row: 2;
-    grid-column: 1/4;
-    width: 80%;
-    margin: 40px auto;
-  }
+//   
 }
