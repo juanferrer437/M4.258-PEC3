@@ -6,7 +6,7 @@
   }
 
   &__logo {
-    @apply max-w-[200px];
+    @apply hidden md:block max-w-[200px];
   }
 }
 
@@ -16,6 +16,4 @@
   &__item {
     @apply pl-9 pt-1;
   }
-
-
 }
